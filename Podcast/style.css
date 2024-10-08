@@ -1,0 +1,204 @@
+body{ 
+    background-color: rgb(201, 236, 254);
+    margin: 0 auto;
+}
+
+
+header {background-color: rgb(69, 100, 152);
+border-radius: 0%;
+border: dotted;
+margin-bottom: 3em;}
+
+section > div {display: flex;
+}
+
+section div img{ width: 40%;
+  padding: 1%;
+}
+
+.overonskat img{
+  width: 20em;
+  height: 20em;
+  padding: 1%;
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.overonskat img:hover{
+  background-color: #611111;
+  rotate: 360deg;
+}
+
+section h2 {
+text-align: center;
+width: 17%;
+display: flex;
+margin: 0 auto;
+padding: 1%;}
+
+section{background-color: rgb(69, 100, 152);}
+ section div  {background-color: rgb(117, 150, 206);}
+
+ section div img {background-color: rgb(117, 150, 206);}
+
+
+ header ul li {
+    display: inline;
+    list-style: none;
+    font-size: 1.3em;
+    color: #830101;
+    padding: 1vh;
+    margin: 0em 1em 0em 1em;
+    background-color: rgb(183, 235, 254);
+    border: 2px solid black;
+    transition: font-size;
+   transition-duration: 4s;
+   transition-delay: 0s;
+  }
+
+  header ul li:hover{
+    font-size: 30px;
+  }
+
+  .flex-container{display: flex;
+justify-content: center;}
+
+.flex-container img {width: 30%;
+height: auto;
+padding: 1%;
+background-color: rgb(95, 95, 200);
+margin-bottom: 2em;}
+
+section h2{
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(55, 55, 128);
+  transition: 5s;
+ width: 30%;
+ display: flex;
+ align-items: flex-start;
+ margin: 0 auto;
+ padding: 1%;
+}
+
+
+.image-container{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.image-container div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  background-color: rgb(117, 150, 206);
+  
+}
+
+
+footer h2 {
+  background-color: rgb(55, 55, 128);
+  padding: 1%;
+  margin-bottom: 0%;
+  margin-top: 10%;
+}
+
+footer div {
+  background-color: rgb(117, 150, 206);
+  margin-top: 0%;
+}
+
+
+section:last-child{
+  width: 40%;
+  margin: 3%;
+
+  
+}
+
+section:nth-child(even){
+width: 40%;
+flex-wrap: wrap;
+}
+
+.knuffels {
+  display: flex;
+  margin: 3%;
+}
+
+main h1 {display: flex;
+justify-content: center;
+background-color: rgb(69, 100, 152);
+padding: 4%;
+margin-bottom: 4%;
+border:double 1em;
+border-color: rgb(55, 55, 128);
+color: aliceblue;
+}
+
+.shoppings img{
+  height: 20em;
+  width: 20em;
+  padding: 8%;
+  margin-bottom: 4%;
+  background-color: rgb(55, 55, 128);
+}
+
+.shoptitle h1 {
+  background-color: rgb(117, 150, 206);
+  padding: 1%;
+  border:solid;
+  border-color: rgb(22, 48, 71);
+  margin-bottom: 0%;
+  width: 70%;
+}
+
+.shoptitle{
+  display: flex;
+  justify-content: center;
+}
+
+.episodes {display: flex;
+flex-direction: column;
+justify-items: center;
+}
+
+.episodes img {
+  height: 10em;
+  width: 15em;
+}
+
+.episodes div{display: flex;
+align-items: center;
+background-color: rgb(69, 100, 152);
+margin-bottom: 1em;}
+
+main h2 {background-color: rgb(57, 100, 176);
+  padding: 1%;
+  border:solid;
+  border-color: rgb(22, 48, 71);
+  margin-bottom: 0%;
+  width: 100%;
+}
+
+h1 {
+font: size 60px;
+}
+
+a{
+  color: blueviolet;
+}
+
+h2{
+  color: aliceblue;
+}
+
+h1{
+  color: aliceblue;
+}
